@@ -81,6 +81,7 @@ export const resPassThunk = createAsyncThunk(
     } catch (error) {
       return rejectWithValue(error.message);
     }
+    console.log('hello')
   },
 );
 export const refreshUser = createAsyncThunk(
